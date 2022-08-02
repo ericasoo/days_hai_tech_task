@@ -3,7 +3,7 @@
 
 ### Overview
 This program calculates the number of days between two dates provided through a command line input.
-Written as a tech task for the harrison.ai Applied AI interview.
+Written as a tech task for the harrison.ai Applied AI interview [here](https://github.com/harrison-ai/hai-tech-tasks/blob/develop/dates.md).
 
 ### Getting Started
 To run the application:

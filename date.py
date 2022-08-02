@@ -36,7 +36,9 @@ def date_to_days(date, month_lengths):
 
     return num_days
 
-
+## function: valid_input
+## determines whether the input dates are valid
+## returns boolean value for validity
 def valid_input(date, month_lengths):
     valid = 1
 
@@ -96,7 +98,6 @@ def main():
 
     month_lengths = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 
-
     date1_valid = 0
     date2_valid = 0
     while (not date1_valid):
@@ -109,13 +110,9 @@ def main():
         if valid_input(date2_input, month_lengths):
             date2_valid = 1
     
-
     diff3 = find_days(date1_input, date2_input, month_lengths)
 
 
 
 if __name__ == "__main__":
     main()
-
-
-
